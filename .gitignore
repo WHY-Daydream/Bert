@@ -5,8 +5,7 @@ __pycache__/
 dist/
 build/
 
-# 模型文件（大二进制文件，用 LFS 或忽略）
-*.pt
+# 模型文件（大二进制文件，用 LFS）
 *.pth
 *.bin
 *.h5
