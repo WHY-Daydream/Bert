@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# 模型文件（大二进制文件，用 LFS 或忽略）
+*.pt
+*.pth
+*.bin
+*.h5
+*.msgpack
+
+# AtomCode / IDE
+.atomcode/
+.vscode/
+.idea/
+*.swp
+*.swo
+.configs/
+.lingma_storage/
+.qwen/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 环境
+.env
+.env.local
+venv/
+.venv/
+
+# 日志
+*.log
